@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_sr2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_sr2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="245800001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="215"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/test_sr2/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/dout" type="array">
+      <obj_property name="ElementShortName">dout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/dout_ready" type="logic">
+      <obj_property name="ElementShortName">dout_ready</obj_property>
+      <obj_property name="ObjectShortName">dout_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/ok" type="logic">
+      <obj_property name="ElementShortName">ok</obj_property>
+      <obj_property name="ObjectShortName">ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/zender_out" type="array">
+      <obj_property name="ElementShortName">zender_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">zender_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/ontvanger_in" type="array">
+      <obj_property name="ElementShortName">ontvanger_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ontvanger_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/dreq_out" type="logic">
+      <obj_property name="ElementShortName">dreq_out</obj_property>
+      <obj_property name="ObjectShortName">dreq_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/dreq_in" type="logic">
+      <obj_property name="ElementShortName">dreq_in</obj_property>
+      <obj_property name="ObjectShortName">dreq_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/dav_out" type="logic">
+      <obj_property name="ElementShortName">dav_out</obj_property>
+      <obj_property name="ObjectShortName">dav_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/dav_in" type="logic">
+      <obj_property name="ElementShortName">dav_in</obj_property>
+      <obj_property name="ObjectShortName">dav_in</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider125">
+      <obj_property name="label">s2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/clk1" type="logic">
+      <obj_property name="ElementShortName">clk1</obj_property>
+      <obj_property name="ObjectShortName">clk1</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/state_current" type="other">
+      <obj_property name="ElementShortName">state_current</obj_property>
+      <obj_property name="ObjectShortName">state_current</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider126">
+      <obj_property name="label">r2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/state_current" type="other">
+      <obj_property name="ElementShortName">state_current</obj_property>
+      <obj_property name="ObjectShortName">state_current</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

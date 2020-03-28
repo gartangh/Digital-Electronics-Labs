@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_sr2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_sr2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="225231333fs"></ZoomStartTime>
+      <ZoomEndTime time="372131334fs"></ZoomEndTime>
+      <Cursor1Time time="347648000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <ValueColumnWidth column_width="194"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="54" />
+   <wvobject type="divider" fp_name="divider1073">
+      <obj_property name="label">sender_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/dreq" type="logic">
+      <obj_property name="ElementShortName">dreq</obj_property>
+      <obj_property name="ObjectShortName">dreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/dav" type="logic">
+      <obj_property name="ElementShortName">dav</obj_property>
+      <obj_property name="ObjectShortName">dav</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/d" type="array">
+      <obj_property name="ElementShortName">d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/d_enable" type="logic">
+      <obj_property name="ElementShortName">d_enable</obj_property>
+      <obj_property name="ObjectShortName">d_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/d_buffer" type="array">
+      <obj_property name="ElementShortName">d_buffer[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d_buffer[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/state_current" type="other">
+      <obj_property name="ElementShortName">state_current</obj_property>
+      <obj_property name="ObjectShortName">state_current</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1100">
+      <obj_property name="label">sender_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/s1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/s1/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT1/s1/d" type="array">
+      <obj_property name="ElementShortName">d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1101">
+      <obj_property name="label">receiver_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/dav" type="logic">
+      <obj_property name="ElementShortName">dav</obj_property>
+      <obj_property name="ObjectShortName">dav</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/state_current" type="other">
+      <obj_property name="ElementShortName">state_current</obj_property>
+      <obj_property name="ObjectShortName">state_current</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/din" type="array">
+      <obj_property name="ElementShortName">din[3:0]</obj_property>
+      <obj_property name="ObjectShortName">din[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/dout" type="array">
+      <obj_property name="ElementShortName">dout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/dout_ready" type="logic">
+      <obj_property name="ElementShortName">dout_ready</obj_property>
+      <obj_property name="ObjectShortName">dout_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/ok" type="logic">
+      <obj_property name="ElementShortName">ok</obj_property>
+      <obj_property name="ObjectShortName">ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/dreq" type="logic">
+      <obj_property name="ElementShortName">dreq</obj_property>
+      <obj_property name="ObjectShortName">dreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1102">
+      <obj_property name="label">receiver_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/state_current" type="other">
+      <obj_property name="ElementShortName">state_current</obj_property>
+      <obj_property name="ObjectShortName">state_current</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/di" type="array">
+      <obj_property name="ElementShortName">di[3:0]</obj_property>
+      <obj_property name="ObjectShortName">di[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/dout" type="array">
+      <obj_property name="ElementShortName">dout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/dout_ready" type="logic">
+      <obj_property name="ElementShortName">dout_ready</obj_property>
+      <obj_property name="ObjectShortName">dout_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/ok" type="logic">
+      <obj_property name="ElementShortName">ok</obj_property>
+      <obj_property name="ObjectShortName">ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/registers_enable" type="logic">
+      <obj_property name="ElementShortName">registers_enable</obj_property>
+      <obj_property name="ObjectShortName">registers_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/dout_ready_buffer" type="logic">
+      <obj_property name="ElementShortName">dout_ready_buffer</obj_property>
+      <obj_property name="ObjectShortName">dout_ready_buffer</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider800">
+      <obj_property name="label">register_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/register_1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/register_1/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/register_1/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/register_1/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider799">
+      <obj_property name="label">register_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/register_2/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/register_2/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/register_2/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/register_2/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider797">
+      <obj_property name="label">word_generator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/word_generator/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/word_generator/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/word_generator/state_current" type="other">
+      <obj_property name="ElementShortName">state_current</obj_property>
+      <obj_property name="ObjectShortName">state_current</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/word_generator/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_sr2/DUT2/r1/word_generator/data" type="array">
+      <obj_property name="ElementShortName">data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data[3:0]</obj_property>
+   </wvobject>
+</wave_config>

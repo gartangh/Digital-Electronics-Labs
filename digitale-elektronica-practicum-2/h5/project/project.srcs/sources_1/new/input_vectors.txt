@@ -1,0 +1,35 @@
+# Start of test
+# input format reset|button pressed
+# NOTE: test vector file for Moore FSM! (adapt if you have Mealy)
+# Resetting
+00 0
+10 0
+10 0
+# Coming out of reset with button not pressed
+00 0
+00 0
+00 0
+01 0
+01 0
+01 0
+00 0
+00 1
+00 0
+# Resetting again
+00 0
+10 0
+10 0
+11 0
+11 0
+# Coming out of reset with button pressed
+01 0
+01 0
+01 0
+01 0
+00 0
+00 1
+00 0
+01 0
+00 0
+01 1
+
